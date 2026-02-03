@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estudios y Formación</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            margin: 30px;
+            background: linear-gradient(135deg, #f3f3f3, #ffffff);
+        }
+
+        h1, h2 {
+            margin-bottom: 10px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #222;
+            border-left: 6px solid #4a6cff;
+            padding-left: 12px;
+        }
+
+        h2 {
+            font-size: 26px;
+            margin-top: 30px;
+            color: #333;
+            border-left: 4px solid #4a6cff;
+            padding-left: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            border: 3px solid #000;
+        }
+
+        th {
+            border: 3px solid #000;
+            padding: 12px;
+            text-align: left;
+            font-size: 16px;
+            background-color: #e6e6e6;
+            font-weight: bold;
+        }
+
+        td {
+            border: 3px solid #000;
+            padding: 12px;
+            text-align: left;
+            font-size: 16px;
+            background: #fff;
+        }
+
+        tr:nth-child(even) td {
+            background: #f4f6ff;
+        }
+
+        .interes-ia-box {
+            border-left: 5px solid #4a6cff;
+            background: #ffffff;
+            padding: 18px;
+            width: 300px;
+            border-radius: 12px;
+            font-size: 17px;
+            margin-top: 20px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+            transition: 0.3s ease;
+        }
+
+        .interes-ia-box:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+        }
+
+        .interes-ia-box strong {
+            font-size: 18px;
+            color: #4a6cff;
+        }
+    .info-box {
+            border-left: 5px solid #4a6cff;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            font-size: 16px;
+            margin-top: 30px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+        }
+
+        .info-box h2 {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Estudios y formación</h1>
+        <table border="2" style="border-collapse: collapse; width: 100%;">
+            <thead>
+                <tr>
+                    <th>Estudios</th>
+                    <th>Centro</th>
+                    <th>Año</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Desarrollo de Aplicaciones Multiplataforma (DAM)</td>
+                    <td>Nortempo Formación</td>
+                    <td>2025-2027</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Formación académica</h2>
+        <div class="interes-ia-box">
+            <strong>Interés e IA</strong><br>
+            Contenidos relacionados con inteligencia artificial.
+        </div>
+    
+        <div class="info-box">
+            <h2>Sobre mí</h2>
+            <p>Soy una persona responsable, con ganas de aprender y mejorar cada día. Me gusta la tecnología, la informática y todo lo relacionado con el desarrollo y la IA.</p>
+
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Trabajo en equipo</li>
+                <li>Resolución de problemas</li>
+                <li>Conocimientos básicos de programación</li>
+                <li>Interés en IA y nuevas tecnologías</li>
+            </ul>
+
+            <h2>Intereses</h2>
+            <ul>
+                <li>Inteligencia Artificial</li>
+                <li>Desarrollo de software</li>
+                <li>Hardware y montaje de PCs</li>
+                <li>Criptomonedas</li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>

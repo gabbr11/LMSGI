@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriel Agustí Lago — Mini Portfolio</title>
+  <link rel="stylesheet" href="colorinchos.css">
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <h1>Gabriel Agustí Lago</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#estudios">Estudios</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="sobre-mi" class="card">
+      <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSg0M8o6q0AracHIKovIxzK49TTTBcSOTGBQ&s" alt="Avatar de Gabriel Agustí Lago">
+        <figcaption>Gabriel Agustí Lago — Estudiante DAM</figcaption>
+      </figure>
+      <article>
+        <h2>Hola — Soy Gabriel Agustí Lago</h2>
+        <p>Soy estudiante de <strong>Desarrollo de Aplicaciones Multiplataforma (DAM — 1º)</strong>. Me apasiona la programación, los videojuegos, la música y el gimnasio. Aunque aún no tengo experiencia laboral formal, me gusta aprender creando pequeñas apps y páginas web. Busco prácticas donde crecer como desarrollador junior.</p>
+      </article>
+    </section>
+    
+    <section id="estudios" class="card">
+      <h2>Estudios y formación</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Estudios</th>
+            <th>Centro</th>
+            <th>Año</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Desarrollo de Aplicaciones Multiplataforma (DAM)</td>
+            <td>Nortempo Formación</td>
+            <td>2025-2027</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Información adicional: Actualmente cursando 1º de DAM</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    
+    <section id="habilidades" class="card">
+      <h2>Habilidades</h2>
+      <div class="habilidades-container">
+        <div>
+          <h3>Lenguajes que estoy aprendiendo</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>XML</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Trabajo en equipo</li>
+            <li>Resolución de problemas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <section id="proyectos" class="card">
+      <h2>Proyectos</h2>
+      <ol class="proyectos-lista">
+        <li>Mini portfolio personal (HTML)</li>
+        <li>Tarea básica (CSS)</li>
+        <li>Calculadora básica (Java)</li>
+        <li>Gestor de tareas simple (Java)</li>
+      </ol>
+      
+      <h2>Intereses</h2>
+      <p>Me apasiona la programación, los videojuegos, la música y el gimnasio. Disfruto aprendiendo nuevas tecnologías y creando proyectos personales.</p>
+      
+      <article class="tarjeta-interes">
+        <h3>IA</h3>
+        <p>Estoy muy interesado en proyectos de IA, quiero crear una empresa de Inteligencia Artificial</p>
+      </article>
+    </section>
+    
+    <section id="contacto" class="card">
+      <h2>Contacto</h2>
+      <form action="#" method="post" class="formulario-contacto">
+        <div class="campo-formulario">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        
+        <div class="campo-formulario">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="campo-formulario">
+          <label for="asunto">Asunto:</label>
+          <select id="asunto" name="asunto" required>
+            <option value="consulta">Consulta</option>
+            <option value="sugerencia">Sugerencia</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+        
+        <div class="campo-formulario">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        
+        <div class="campo-formulario">
+          <input type="submit" value="Enviar" class="boton-enviar">
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© Gabriel Agustí Lago — Tarjeta profesional digital para prácticas — <a href="#sobre-mi">Volver arriba</a></p>
+    </div>
+  </footer>
+</body>
+</html>
