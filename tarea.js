@@ -83,3 +83,19 @@ try{//intenta ejecutar este bloque de código
 }catch(error){//captura error
     console.error("error:",error.message);
 }
+
+//EVALUABLE  
+for (let i=1;i<=20;i++){
+    if (i % 3 == 0 & i % 5 == 0){
+        print("FizzBuzz")
+    }
+    if (i % 3 == 0) {
+        print("Fizz")
+    }
+    if (i % 5 == 0){
+        print("Buzz")
+    }
+    else{
+        print(i)
+    }
+}
